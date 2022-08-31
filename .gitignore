@@ -1,0 +1,8 @@
+
+# disable files ends with .nmf
+*.nmf
+*.wav
+
+# disable folders .venv and .
+.venv
+.venv/*

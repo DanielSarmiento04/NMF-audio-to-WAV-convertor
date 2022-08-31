@@ -54,3 +54,18 @@ Using the Python struct module the script parses raw audio data and pipes it to 
 
 ## Disclaimer ##
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+
+
+# Depenecies
+1. FFMPEG 
+- If your are in mac os first you have to install FFMPEG package  for this, you may used brew or port
+
+- https://www.imymac.es/mac-tips/install-ffmpeg-mac.html
+    - brew: install brew using 
+    ```terminal
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 
+    ```
+    and execute 
+    ```brew
+    brew install ffmpeg
+    ````

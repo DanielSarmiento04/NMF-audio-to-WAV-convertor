@@ -163,8 +163,5 @@ def convert_to_wav(path_to_file):
 
 
 if __name__ == "__main__":
-    try:
-        path_to_file = sys.argv[1]
-        convert_to_wav(path_to_file)
-    except IndexError:
-        sys.exit("Please specify path to nmf file")
+    path  = 'Antonio Robledo_1_1_7136254231911145804_1_132.nmf'
+    convert_to_wav(path)
